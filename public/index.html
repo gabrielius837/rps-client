@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Decentralized rock paper scissors game" />
+
+    <meta property="og:title" content="Decentralized rock paper scissors game">
+    <meta property="og:type" content="crypto" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo192.png">
+    <meta property="og:url" content="%PUBLIC_URL%/">
+    <meta name="twitter:card" content="%PUBLIC_URL%/logo512.png">
+
+    <meta property="og:description" content="Offering tour packages for individuals or groups.">
+    <meta property="og:site_name" content="Crypto-rps">
+    <meta name="twitter:image:alt" content="Decentralized rock paper scissors game">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Crypto rps</title>
+
+    <!-- Start Single Page Apps for GitHub Pages -->
+    <script type="text/javascript">
+        // Single Page Apps for GitHub Pages
+        // MIT License
+        // https://github.com/rafgraph/spa-github-pages
+        // This script checks to see if a redirect is present in the query string,
+        // converts it back into the correct url and adds it to the
+        // browser's history using window.history.replaceState(...),
+        // which won't cause the browser to attempt to load the new url.
+        // When the single page app is loaded further down in this file,
+        // the correct url will be waiting in the browser's history for
+        // the single page app to route accordingly.
+        (function (l) {
+            if (l.search[1] === '/') {
+                var decoded = l.search.slice(1).split('&').map(function (s) {
+                    return s.replace(/~and~/g, '&')
+                }).join('?');
+                window.history.replaceState(null, null,
+                    l.pathname.slice(0, -1) + decoded + l.hash
+                );
+            }
+        }(window.location))
+    </script>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this dapp.</noscript>
+    <div id="background"></div>
+    <div id="root"></div>
+    <div id="portal-root"></div>
+</body>
+
+</html>

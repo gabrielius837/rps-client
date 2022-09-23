@@ -1,0 +1,74 @@
+{
+  "homepage": "https://www.crypto-rps.xyz",
+  "name": "rockpaperscissors-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/jest": "^28.1.3",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "@web3-react/walletlink-connector": "^6.2.14",
+    "buffer": "^6.0.3",
+    "ethers": "^5.6.9",
+    "framer-motion": "^6.3.15",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-countdown-circle-timer": "^3.0.9",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.33.0",
+    "react-popper": "^2.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.2",
+    "styled-components": "^5.3.5",
+    "styled-normalize": "^8.0.7",
+    "styled-system": "^5.1.5",
+    "typescript": "^4.7.4",
+    "unrequired": "^0.3.1",
+    "util": "^0.12.4",
+    "web-vitals": "^2.1.4",
+    "zustand": "^3.7.2"
+  },
+  "scripts": {
+    "predeploy": "REACT_APP_CHAIN_ID=97 GENERATE_SOURCEMAP=false npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/react-transition-group": "^4.4.5",
+    "@types/styled-components": "^5.1.25",
+    "@types/styled-system": "^5.1.15",
+    "@types/uuid": "^8.3.4",
+    "gh-pages": "^4.0.0"
+  }
+}

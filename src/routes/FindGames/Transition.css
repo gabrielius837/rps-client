@@ -1,0 +1,21 @@
+.item-enter {
+    max-height: 0;
+    opacity: 0;
+}
+
+.item-enter-active {
+    max-height: 336px;
+    opacity: 1;
+    transition: all 250ms;
+}
+
+.item-exit {
+    max-height: 336px;
+    opacity: 1;
+}
+
+.item-exit-active {
+    max-height: 0;
+    opacity: 0;
+    transition: all 250ms;
+}

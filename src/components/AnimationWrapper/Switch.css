@@ -1,0 +1,24 @@
+.switch-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.switch-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.switch-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.switch-exit-active {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.switch-enter-active,
+.switch-exit-active {
+    transition: opacity 500ms, transform 500ms;
+}
